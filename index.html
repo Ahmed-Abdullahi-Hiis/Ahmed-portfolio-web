@@ -3,40 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Ahmed Hiis Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <style>
+    
+    </style>
     
 </head>
-<body class="bg-gray-900 text-white">
 
-    <!-- Navbar -->
-   <nav class="flex justify-between items-center p-6 bg-black-800 shadow-lg dark:bg-black-200">
+<body class=" bg-gray-900 text-white">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-4 bg-gray-900 shadow-lg dark:bg-gray-900 fixed top-0 left-0 w-full z-50 h-16 shadow">
     <h1 class="text-2xl font-bold text-orange-500">My Portfolio</h1>
     <ul class="flex gap-6">
-        <li><a href="#home" class="hover:text-orange-400">Home</a></li>
-        <li><a href="#about" class="hover:text-orange-400">About</a></li>
-        <li><a href="#our-services" class="hover:text-orange-400">Our services</a></li>
-        <li><a href="#project" class="hover:text-orange-400">Project</a></li>
-        <li><a href="#contact" class="hover:text-orange-400">Contact</a></li>
+      <li><a href="#home" class="hover:text-orange-400">Home</a></li>
+      <li><a href="#about" class="hover:text-orange-400">About</a></li>
+      <li><a href="#our-services" class="hover:text-orange-400">Services</a></li>
+      <li><a href="#skills" class="hover:text-orange-400">Skills</a></li>
+      <li><a href="#contacts" class="hover:text-orange-400">Contact</a></li>
     </ul>
     <button id="theme-toggle" class="p-2 bg-gray-700 dark:bg-gray-300 text-white dark:text-gray-900 rounded-full">🌙</button>
-</nav>
+  </nav>
+<!-- Hero Section -->
+<section id="home" class="w-full max-w-6xl text-center">
+<section class=" py-24 flex  text-white flex justify-center items-center gap-10 px-6">
+  <div class="max-w-2xl">
+      <h1 class="text-4xl font-bold animate-bounce">Hello, It's Me</h1>
+      <h2 class="text-5xl font-bold text-white animate-bounce fade opacity-100">
+          Developer <span class="text-orange-500 animate-pulse"> Ahmed</span>
+      </h2>
 
-    <!-- Hero Section -->
-    <section class="flex justify-center items-center min-h-screen px-10">
-        <div class="max-w-2xl">
-            <h1 class="text-4xl font-bold animate-bounce">Hello, It's Me</h1>
-            <h2 class="text-5xl font-bold text-white animate-bounce fade opacity-100">
-                Developer <span class="text-orange-500 animate-pulse">Ahmed</span>
-            </h2>
-            
-            <p class="mt-4 text-lg text-gray-300 hover:text-orange-500">
-                Hi! I’m Ahmed Hiis, a passionate full-stack software developer.
-            </p>
-
+      <p class="mt-4 text-lg text-gray-300 hover:text-orange-500">
+          Hi! I’m Ahmed Hiis, a passionate full-stack software developer.
+      </p>
             <!-- Social Media Icons -->
             <div class="flex space-x-4 mt-6 animate-bounce hover:text-orange-500">
-                <a href="https://www.facebook.com/ahmedabdullahi.hurgun"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <a href="https://www.facebook.com/ahmedabdullahi.hurgun" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
                   </svg></a>
                 <a href="https://www.instagram.com/bayanecamey63?igsh=MTNsdGF0dDNpeHRkZw=="><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -45,19 +51,19 @@
                 <a href="https://x.com/AHurgun?t=d-vC3RkKcIOjinrxU5B67A&s=09"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
                     <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
                   </svg></a>
-                <a href=" https://wa.me/message/NRKEYJ5FFHW6H1 " ><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
-                  </svg></a>
+                  <a href="https://wa.me/message/NRKEYJ5FFHW6H1" aria-label="Chat with us on WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                    </svg>
+                  </a>
             </div>
-
             <!-- Portfolio Button -->
-            <a href="#" class="mt-6 inline-block bg-orange-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-orange-600 transition">
-                My Portfolio
+            <a href="Ahmed_Abdullahi_Hiis_CV.docx" class="mt-6 inline-block bg-orange-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-orange-600 transition">
+              Download Resume
             </a>
         </div>
-
         <!-- Profile Image -->
-        <div class="mr-10 hidden md:block animate-pulse">
+        <div class="animate-pulse block">
             <div class="relative">
                 <img src="images/bayane4.jpg" alt="Developer Ahmed" width="350" height="350" class="rounded-full border-4 border-orange-500">
                 <div class="absolute top-0 left-0 w-full h-full rounded-full bg-orange-500 opacity-30 blur-xl"></div>
@@ -65,12 +71,10 @@
         </div>
     </section>
     <!-- About Section -->
-    <section id="about" class="p-8 w-full max-w-6xl text-center">
-        
+    <section id="about" class="w-full max-w-6xl text-center">
         <!-- Button to Show About Info -->
         <button class="px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition"
                 onclick="toggleSection('aboutContent')">Show About Me</button>
-
         <!-- Hidden About Content -->
         <div id="aboutContent" class="hidden mt-8 p-6 bg-gray-800 rounded-lg shadow-lg">
             <div class="flex flex-col md:flex-row items-center">
@@ -130,7 +134,6 @@
         }
     </script>
 
-
 <!-- Services Section -->
 <section id="our-services" class="p-8 w-full max-w-6xl text-center">
  <section class="text-center py-10 px-5">
@@ -171,27 +174,7 @@
     </div>
 </section>
 
-   <!-- Projects Section -->
-   <section id="project" class="p-8 w-full max-w-6xl text-center">
-   <section class="text-center py-12">
-    <h2 class="text-4xl font-bold mb-6 animate-bounce">Latest <span class="text-orange-500">Projects</span></h2>
-    
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6 hover:scale-105">
-        <div class="project bg-gray-800 p-4 rounded-lg shadow-lg dark:bg-gray-300 hover:scale-105 border-2 border-transparent hover:border-orange-500" onclick="showPopup()">
-            <img src="images/project 1.jpeg" alt="Project 1" class="rounded-lg w-full">
-            <h3 class="text-lg font-semibold mt-3"></h3>
-        </div>
-        
-        <div class="project bg-gray-800 p-4 rounded-lg shadow-lg dark:bg-gray-300 hover:scale-105 border-2 border-transparent hover:border-orange-500" onclick="showPopup()">
-            <img src="images/project 5.jpeg" alt="Project 5" class="rounded-lg w-full">
-            <h3 class="text-lg font-semibold mt-3"></h3>
-        </div>
-        <div class="project bg-gray-800 p-4 rounded-lg shadow-lg dark:bg-gray-300 hover:scale-105 border-2 border-transparent hover:border-orange-500" onclick="showPopup()">
-            <img src="images/project 7.jpeg" alt="Project 6" class="rounded-lg w-full">
-            <h3 class="text-lg font-semibold mt-3"></h3>
-        </div>
-    </div>
-</section>
+   
 
 <!-- Thank You Popup -->
 <div id="thank-you-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
@@ -201,112 +184,211 @@
         <button onclick="closePopup()" class="mt-4 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600">Close</button>
     </div>
 </div>
+<script src="https://cdn.tailwindcss.com"></script>
+  
+<body class="bg-gray-900 text-white p-10">
+    <section id="skills" class="p-8 w-full max-w-6xl text-center">
+ 
+<!-- Skills Section -->
+<section class="py-10 px-6 md:px-20 ">
+  <h2 class=" w-full text-4xl font-bold mb-6 animate-bounce text-center"> My <span class="text-orange-500">Skills</span></h2>
 
+  <div class="flex flex-col md:flex-row justify-between items-center gap-10">
 
+    <!-- Left: Skills Bars -->
+    <div class="w-full md:w-1/2">
+    
+      <div class="mb-4">
+        <p>HTML</p>
+        <div class="w-full bg-gray-700 rounded-full h-2">
+          <div class="bg-cyan-400 h-2 rounded-full" style="width: 90%"></div>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <p>CSS</p>
+        <div class="w-full bg-gray-700 rounded-full h-2">
+          <div class="bg-cyan-400 h-2 rounded-full" style="width: 60%"></div>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <p>JavaScript</p>
+        <div class="w-full bg-gray-700 rounded-full h-2">
+          <div class="bg-cyan-400 h-2 rounded-full" style="width: 45%"></div>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <p>Tailwindcss</p>
+        <div class="w-full bg-gray-700 rounded-full h-2">
+          <div class="bg-cyan-400 h-2 rounded-full" style="width: 60%"></div>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <p>React</p>
+        <div class="w-full bg-gray-700 rounded-full h-2">
+          <div class="bg-cyan-400 h-2 rounded-full" style="width: 75%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="w-full md:w-1/2 flex justify-center">
+      <img src="images/computer.jpeg" alt="Someone typing" class="max-w-xs md:max-w-md rounded-xl shadow-lg hover:scale-105 transition-transform duration-300">
+    </div>
+
+  </div>
+</section>
 
 <script>
-    tailwind.config = { darkMode: 'class' };
+  tailwind.config = { darkMode: 'class' };
 </script>
 
 <!-- Contact Form Section -->
-<section id="contact" class="p-8 w-full max-w-6xl text-center">
-<section class="flex flex-col items-center justify-center min-h-screen p-6">
-    <h2 class="text-4xl font-bold mb-6 animate-bounce">Contact <span class="text-orange-500">Me!</span></h2>
-    
-    <form id="contact-form" class="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-2xl dark:bg-gray-300 dark:text-gray-900 hover:text-orange-500">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-                <label class="block text-sm font-semibold">Full Name</label>
-                <input type="text" id="name" placeholder="Enter your name" class="w-full mt-2 p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 transition-transform transform hover:scale-105 hover:text-orange-500">
-                <small class="text-red-500 hidden" id="name-error">Full Name is required!</small>
-            </div>
-            <div>
-                <label class="block text-sm font-semibold">Email Address</label>
-                <input type="email" id="email" placeholder="Enter your email" class="w-full mt-2 p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 transition-transform transform hover:scale-105 hover:text-orange-500">
-                <small class="text-red-500 hidden" id="email-error">Enter a valid email!</small>
-            </div>
-        </div>
+<section id="contacts" class="p-8 w-full max-w-6xl mx-auto text-center scroll-mt-20">
+  <div class="flex flex-col items-center justify-center min-h-screen p-6">
+      <h2 class="text-4xl font-bold mb-6 animate-bounce">Contact <span class="text-orange-500">Me!</span></h2>
+      
+      <form id="contact-form" class="bg-gray-800 p-8 rounded-2xl shadow-2xl w-full max-w-3xl dark:bg-gray-300 dark:text-gray-900 animate-fade-in-up">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                  <label class="block text-sm font-semibold mb-2">Full Name</label>
+                  <input type="text" id="name" placeholder="Enter your name" 
+                      class="w-full p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 focus:outline-none transform transition-all duration-300 hover:scale-105 focus:scale-105 hover:ring-2 hover:ring-orange-400">
+                  <small class="text-red-500 hidden" id="name-error">Full Name is required!</small>
+              </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-            <div>
-                <label class="block text-sm font-semibold">Mobile Number</label>
-                <input type="tel" id="phone" placeholder="Enter your number" class="w-full mt-2 p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 transition-transform transform hover:scale-105 hover:text-orange-500">
-            </div>
-            <div>
-                <label class="block text-sm font-semibold">Email Subject</label>
-                <input type="text" id="subject" placeholder="Enter subject" class="w-full mt-2 p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 transition-transform transform hover:scale-105 hover:text-orange-500">
-            </div>
-        </div>
+              <div>
+                  <label class="block text-sm font-semibold mb-2">Email Address</label>
+                  <input type="email" id="email" placeholder="Enter your email" 
+                      class="w-full p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 focus:outline-none transform transition-all duration-300 hover:scale-105 focus:scale-105 hover:ring-2 hover:ring-orange-400">
+                  <small class="text-red-500 hidden" id="email-error">Enter a valid email!</small>
+              </div>
+          </div>
 
-        <div class="mt-4">
-            <label class="block text-sm font-semibold">Your Message</label>
-            <textarea id="message" placeholder="Write your message..." rows="4" class="w-full mt-2 p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 transition-transform transform hover:scale-105 hover:text-orange-500"></textarea>
-            <small class="text-red-500 hidden" id="message-error">Message is required!</small>
-        </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+              <div>
+                  <label class="block text-sm font-semibold mb-2">Mobile Number</label>
+                  <input type="tel" id="phone" placeholder="Enter your number" 
+                      class="w-full p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 focus:outline-none transform transition-all duration-300 hover:scale-105 focus:scale-105 hover:ring-2 hover:ring-orange-400">
+              </div>
 
-        <!-- Submit Button -->
-        <div class="flex justify-center mt-6">
-            <button type="submit" class="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-lg shadow-lg transition-all duration-300 transform hover:scale-110">
-                Send Message
-            </button>
-        </div>
-    </form>
+              <div>
+                  <label class="block text-sm font-semibold mb-2">Email Subject</label>
+                  <input type="text" id="subject" placeholder="Enter subject" 
+                      class="w-full p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 focus:outline-none transform transition-all duration-300 hover:scale-105 focus:scale-105 hover:ring-2 hover:ring-orange-400">
+              </div>
+          </div>
+
+          <div class="mt-6">
+              <label class="block text-sm font-semibold mb-2">Your Message</label>
+              <textarea id="message" placeholder="Write your message..." rows="5"
+                  class="w-full p-3 rounded-lg bg-gray-700 text-white dark:bg-gray-100 dark:text-gray-900 focus:ring-2 focus:ring-orange-500 focus:outline-none transform transition-all duration-300 hover:scale-105 focus:scale-105 hover:ring-2 hover:ring-orange-400"></textarea>
+              <small class="text-red-500 hidden" id="message-error">Message is required!</small>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="flex justify-center mt-8">
+              <button type="submit"
+                  class="px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 focus:outline-none">
+                  Send Message
+              </button>
+          </div>
+      </form>
+  </div>
 </section>
 
 <!-- Thank You Popup -->
-<div id="thank-you-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
-    <div class="bg-white text-gray-900 p-6 rounded-lg shadow-lg text-center animate-popup">
-        <h2 class="text-2xl font-bold">Thank You!</h2>
-        <p>Your message has been sent successfully.</p>
-        <button onclick="closePopup()" class="mt-4 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600">Close</button>
-    </div>
+<div id="thank-you-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden opacity-0 transition-opacity duration-500">
+  <div class="bg-white text-gray-900 p-8 rounded-2xl shadow-2xl text-center transform scale-90 transition-transform duration-500">
+      <h2 class="text-3xl font-bold mb-2">Thank You!</h2>
+      <p class="text-lg">Your message has been sent successfully.</p>
+      <button onclick="closePopup()" class="mt-6 px-6 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-full transition-transform transform hover:scale-110">
+          Close
+      </button>
+  </div>
 </div>
 
-<!-- JavaScript for Light/Dark Mode & Form Validation -->
+<!-- JavaScript for Form Validation and Popup -->
 <script>
-    // Dark Mode Toggle
-    const themeToggle = document.getElementById('theme-toggle');
-    const htmlElement = document.documentElement;
-    themeToggle.addEventListener('click', () => {
-        htmlElement.classList.toggle('dark');
-        themeToggle.textContent = htmlElement.classList.contains('dark') ? '☀' : '🌙';
-    });
+  const popup = document.getElementById('thank-you-popup');
+  const popupContent = popup.querySelector('div');
 
-    // Form Validation
-    document.getElementById("contact-form").addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent form submission
-        
-        let isValid = true;
-        const name = document.getElementById("name");
-        const email = document.getElementById("email");
-        const message = document.getElementById("message");
+  function showPopup() {
+      popup.classList.remove('hidden');
+      setTimeout(() => {
+          popup.classList.add('opacity-100');
+          popupContent.classList.add('scale-100');
+      }, 10);
+  }
 
-        if (name.value.trim() === "") {
-            document.getElementById("name-error").classList.remove("hidden");
-            isValid = false;
-        } else { document.getElementById("name-error").classList.add("hidden"); }
+  function closePopup() {
+      popup.classList.remove('opacity-100');
+      popupContent.classList.remove('scale-100');
+      setTimeout(() => {
+          popup.classList.add('hidden');
+      }, 500);
+  }
 
-        if (!email.value.match(/^\S+@\S+\.\S+$/)) {
-            document.getElementById("email-error").classList.remove("hidden");
-            isValid = false;
-        } else { document.getElementById("email-error").classList.add("hidden"); }
+  document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
 
-        if (message.value.trim() === "") {
-            document.getElementById("message-error").classList.remove("hidden");
-            isValid = false;
-        } else { document.getElementById("message-error").classList.add("hidden"); }
+      const name = document.getElementById("name");
+      const email = document.getElementById("email");
+      const message = document.getElementById("message");
 
-        if (isValid) {
-            document.getElementById("thank-you-popup").classList.remove("hidden");
-            this.reset();
-        }
-    });
+      let isValid = true;
 
-    // Close Popup
-    function closePopup() {
-        document.getElementById("thank-you-popup").classList.add("hidden");
-    }
+      if (!name.value.trim()) {
+          document.getElementById("name-error").classList.remove("hidden");
+          isValid = false;
+      } else {
+          document.getElementById("name-error").classList.add("hidden");
+      }
+
+      if (!email.value.includes("@")) {
+          document.getElementById("email-error").classList.remove("hidden");
+          isValid = false;
+      } else {
+          document.getElementById("email-error").classList.add("hidden");
+      }
+
+      if (!message.value.trim()) {
+          document.getElementById("message-error").classList.remove("hidden");
+          isValid = false;
+      } else {
+          document.getElementById("message-error").classList.add("hidden");
+      }
+
+      if (isValid) {
+          showPopup();
+          setTimeout(closePopup, 3000);
+          document.getElementById("contact-form").reset();
+      }
+  });
 </script>
+
+<!-- Extra Tailwind Animations -->
+<style>
+@keyframes fade-in-up {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 1s ease-out forwards;
+}
+</style>
+
+
 
 <a href=" https://wa.me/message/NRKEYJ5FFHW6H1 " target="_blank" class="whatsapp-float">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50">
@@ -321,8 +403,44 @@
     }
 </style>
 
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-10 mt-16 animate-fadeIn">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col items-center space-y-6">
 
-  
-  
+    <!-- Social Icons -->
+    <div class="flex space-x-6 animate-bounce ">
+      <!-- WhatsApp -->
+      <a href=" https://wa.me/message/NRKEYJ5FFHW6H1" ><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+      </svg></a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/ahmedabdullahi.hurgun"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+      </svg></a>
+
+
+      <!-- Twitter -->
+      <a href="https://x.com/AHurgun?t=d-vC3RkKcIOjinrxU5B67A&s=09"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+      </svg></a>
+    </div>
+
+    <!-- Email Section -->
+    <div class="text-sm text-gray-300">
+      Contact me at: 
+      <a href="mailto:your.ahmedabdullahihiis@gmail.com" class="underline hover:text-white transition-colors duration-300 animate-pulse text-orange-500">
+        your.ahmedabdullahihiis@gmail.com
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-xs text-gray-500">
+      &copy; 2025 Ahmed Hiis. All rights reserved.
+    </div>
+
+  </div>
+</footer>
+
 </body>
 </html>
