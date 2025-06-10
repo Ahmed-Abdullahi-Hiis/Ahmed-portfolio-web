@@ -136,7 +136,6 @@
 </ul>
 
         </div>
-
     </section>
 
     <!-- JavaScript for Show/Hide Function -->
@@ -162,8 +161,21 @@
             <p class="mt-2 text-gray-300 ">
                 Website design, also known as web design, is the process of creating the visual aspects of a website. This includes the colors, fonts, page layouts, and more. 
             </p>
-            <button class="mt-4 bg-orange-500 text-white px-6 py-2 rounded-full">See More</button>
-        </div>
+            <!-- <button class="mt-4 bg-orange-500 text-white px-6 py-2 rounded-full">See More</button> -->
+             <button onclick="toggleMoreInfo(this)" class="mt-4 bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600">
+        See More
+    </button>
+    <div class="more-info mt-4 text-gray-300 hidden">
+        <p>We build responsive, interactive, and fast-loading websites using the latest design trends and technologies.</p>
+    </div>
+</div>
+        <script>
+function toggleMoreInfo(button) {
+    const moreInfo = button.nextElementSibling;
+    moreInfo.classList.toggle("hidden");
+}
+</script>
+
 
         <!-- Service Card 2 -->
         <div class="service-card p-6 rounded-lg bg-gray-800 cursor-pointer transition transform hover:scale-105 border-2 border-transparent hover:border-orange-500" onclick="selectService(this)">
@@ -172,7 +184,13 @@
             <p class="mt-2 text-gray-300">
                 A software developer is a professional who uses programming languages to design, build, and maintain software applications and systems.
             </p>
-            <button class="mt-4 bg-orange-500 text-white px-6 py-2 rounded-full">See More</button>
+            <!-- <button class="mt-4 bg-orange-500 text-white px-6 py-2 rounded-full">See More</button> -->
+          <button onclick="toggleMoreInfo(this)" class="mt-4 bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600">
+            See More
+        </button>
+         <div class="more-info mt-4 text-gray-300 hidden">
+            <p>We develop scalable web applications using JavaScript frameworks and backend technologies tailored to your business needs.</p>
+        </div>
         </div>
 
         <!-- Service Card 3 -->
@@ -182,7 +200,13 @@
             <p class="mt-2 text-gray-300">
                 We offer marketing advice and attractive designs compatible with your brand identity.
             </p>
-            <button class="mt-4 bg-orange-500 text-white px-6 py-2 rounded-full">See More</button>
+      
+             <button onclick="toggleMoreInfo(this)" class="mt-4 bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600">
+            See More
+        </button>
+        <div class="more-info mt-4 text-gray-300 hidden">
+            <p>Our marketing services include digital strategy, SEO, and social media branding to help you grow your online presence.</p>
+        </div>
         </div>
 
     </div>
