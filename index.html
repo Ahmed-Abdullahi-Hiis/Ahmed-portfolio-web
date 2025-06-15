@@ -25,7 +25,7 @@
   </nav>
 <!-- Hero Section -->
 <section id="home" class="w-full max-w-6xl text-center">
-<section class=" py-24 flex  text-white flex justify-center items-center gap-10 px-6">
+<section class=" py-24 flex  text-white justify-center items-center gap-10 px-6">
   <div class="max-w-2xl">
       <h1 class="text-4xl font-bold animate-bounce">Hello, It's Me</h1>
       <h2 class="text-5xl font-bold text-white animate-bounce fade opacity-100">
@@ -237,35 +237,39 @@ function toggleMoreInfo(button) {
     <div class="w-full md:w-1/2">
     
       <div class="mb-4">
-        <p>HTML</p>
+        <!-- <p>HTML</p> -->
+         <p class="flex justify-between"><span>HTML</span><span>90%</span></p>
         <div class="w-full bg-gray-700 rounded-full h-2">
           <div class="bg-cyan-400 h-2 rounded-full" style="width: 90%"></div>
         </div>
       </div>
 
       <div class="mb-4">
-        <p>CSS</p>
+        <p class="flex justify-between"><span>CSS</span><span>60%</span></p>
         <div class="w-full bg-gray-700 rounded-full h-2">
           <div class="bg-cyan-400 h-2 rounded-full" style="width: 60%"></div>
         </div>
       </div>
 
       <div class="mb-4">
-        <p>JavaScript</p>
+        <p class="flex justify-between"><span>JAVASCRIPT</span><span>50%</span></p>
+
         <div class="w-full bg-gray-700 rounded-full h-2">
           <div class="bg-cyan-400 h-2 rounded-full" style="width: 45%"></div>
         </div>
       </div>
 
       <div class="mb-4">
-        <p>Tailwindcss</p>
+        <p class="flex justify-between"><span>TAILWINDCSS</span><span>45%</span></p>
+
         <div class="w-full bg-gray-700 rounded-full h-2">
           <div class="bg-cyan-400 h-2 rounded-full" style="width: 60%"></div>
         </div>
       </div>
 
       <div class="mb-4">
-        <p>React</p>
+        <p class="flex justify-between"><span>REACT</span><span>95%</span></p>
+
         <div class="w-full bg-gray-700 rounded-full h-2">
           <div class="bg-cyan-400 h-2 rounded-full" style="width: 75%"></div>
         </div>
@@ -276,9 +280,10 @@ function toggleMoreInfo(button) {
     <div class="w-full md:w-1/2 flex justify-center">
       <img src="images/computer.jpeg" alt="Someone typing" class="max-w-xs md:max-w-md rounded-xl shadow-lg hover:scale-105 transition-transform duration-300">
     </div>
-
   </div>
 </section>
+
+
 <script>
   tailwind.config = { darkMode: 'class' };
 </script>
