@@ -132,7 +132,7 @@
     <li>HTML, CSS, JavaScript</li>
     <li>Tailwind CSS, Bootstrap</li>
     <li>React, Node.js</li>
-    <li>Git, GitHub, Figma</li>
+    <li>Git, GitHub</li>
 </ul>
 
         </div>
@@ -214,21 +214,11 @@ function toggleMoreInfo(button) {
     </div>
 </section>
 
-<!-- Thank You Popup -->
-<div id="thank-you-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
-    <div class="bg-white text-gray-900 p-6 rounded-lg shadow-lg text-center animate-popup">
-        <h2 class="text-2xl font-bold">Thank You!</h2>
-        <p>You've clicked on a project.</p>
-        <button onclick="closePopup()" class="mt-4 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600">Close</button>
-    </div>
-</div>
-<script src="https://cdn.tailwindcss.com"></script>
+
   
 <body class="bg-gray-900 text-white p-10">
     <section id="skills" class="p-8 w-full max-w-6xl text-center">
 
-
- 
 <!-- Skills Section -->
 <section class="py-10 px-6 md:px-20 ">
   <h2 class=" w-full text-4xl font-bold mb-6 animate-bounce text-center"> My <span class="text-orange-500">Skills</span></h2>
@@ -359,78 +349,6 @@ function toggleMoreInfo(button) {
   </div>
 </section>
 
-<!-- Thank You Popup -->
-<div id="thank-you-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden opacity-0 transition-opacity duration-500">
-  <div class="bg-white text-gray-900 p-8 rounded-2xl shadow-2xl text-center transform scale-90 transition-transform duration-500">
-  <h2 class="text-3xl font-bold mb-2">Thanks for Reaching Out!</h2>
-<p class="text-lg">I'll get back to you as soon as possible.</p>
-
-      <button onclick="closePopup()" class="mt-6 px-6 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-full transition-transform transform hover:scale-110">
-          Close
-      </button>
-  </div>
-</div>
-
-<!-- JavaScript for Form Validation and Popup -->
-<!-- <script>
-  const popup = document.getElementById('thank-you-popup');
-  const popupContent = popup.querySelector('div');
-
-  function showPopup() {
-      popup.classList.remove('hidden');
-      setTimeout(() => {
-          popup.classList.add('opacity-100');
-          popupContent.classList.add('scale-100');
-      }, 10);
-  }
-
-  function closePopup() {
-      popup.classList.remove('opacity-100');
-      popupContent.classList.remove('scale-100');
-      setTimeout(() => {
-          popup.classList.add('hidden');
-      }, 500);
-  }
-
-  document.getElementById("contact-form").addEventListener("submit", function (e) {
-      e.preventDefault();
-
-      const name = document.getElementById("name");
-      const email = document.getElementById("email");
-      const message = document.getElementById("message");
-
-      let isValid = true;
-
-      if (!name.value.trim()) {
-          document.getElementById("name-error").classList.remove("hidden");
-          isValid = false;
-      } else {
-          document.getElementById("name-error").classList.add("hidden");
-      }
-
-      if (!email.value.includes("@")) {
-          document.getElementById("email-error").classList.remove("hidden");
-          isValid = false;
-      } else {
-          document.getElementById("email-error").classList.add("hidden");
-      }
-
-      if (!message.value.trim()) {
-          document.getElementById("message-error").classList.remove("hidden");
-          isValid = false;
-      } else {
-          document.getElementById("message-error").classList.add("hidden");
-      }
-
-      if (isValid) {
-          showPopup();
-          setTimeout(closePopup, 3000);
-          document.getElementById("contact-form").reset();
-      }
-  });
-</script> -->
-
-
 <a href=" https://wa.me/message/NRKEYJ5FFHW6H1 " target="_blank" class="whatsapp-float">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50">
 </a>
@@ -444,7 +362,7 @@ function toggleMoreInfo(button) {
     }
 </style>
 
- <div class="text-sm text-gray-300">
+ <!-- <div class="text-sm text-gray-300 mt-4">
   <a
   href="https://github.com/Ahmed-Abdullahi-Hiis/react-portfolio.git"
   target="_blank"
@@ -453,7 +371,8 @@ function toggleMoreInfo(button) {
 >
   <b>View My react Portfolio</b>
 </a>
-</div> 
+</div> -->
+
 
 <!-- Footer -->
 <footer class="bg-gray-900 text-white py-10 mt-16 animate-fadeIn">
